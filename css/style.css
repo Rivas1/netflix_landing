@@ -153,6 +153,18 @@ img {
     color: #fff;
 }
 
+/* Hide content initially */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+    display: none;
+}
+
+/* Show class */
+.show {
+    display: block !important;
+}
+
 #tab-1-content .tab-1-content-inner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -299,6 +311,10 @@ img {
     font-size: 1rem; /* 1rem = (1) x 16px = 16px */ 
     padding: 0.8rem 1.3rem;
     text-transform: uppercase;
+ }
+
+ .btn-icon {
+     margin-left: 1rem;
  }
 
  @media(max-width: 960px) {
